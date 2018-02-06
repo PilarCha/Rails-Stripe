@@ -5,20 +5,22 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby 2.3
 
-* System dependencies
+* Stripe Gem
 
 * Configuration
 
-* Database creation
+* SQLITE3
 
 * Database initialization
 
-* How to run the test suite
+* To run in your terminal where the project is located run
+  PUBLISHABLE_KEY=pk_test_6pRNASCoBOKtIshFeQd4XMUh \
+  SECRET_KEY=sk_test_BQokikJOvBiI2HlWgH4olfQ2 rails s
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* For further instructions follow to the T https://stripe.com/docs/checkout/rails
 
 * ...
